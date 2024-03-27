@@ -4,7 +4,7 @@ import express from "express";
 import cors from "cors";
 import React from "react";
 import { renderToStream } from "@react-pdf/renderer";
-import MyDocument from "./mydocument.mjs";
+import MyDocument from "./mydocument.js";
 
 const app = express();
 const port = 5000;
